@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <title>Page Title</title>
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="/">
   <select name="States">
   {{ state }}
   </select>
   <br><br>
   <input type="submit">
 </form>
+<p>
+Percent of people with a bachelors degree or higher:
+{{funfact}}
+</p>
 
 </body>
 </html>
